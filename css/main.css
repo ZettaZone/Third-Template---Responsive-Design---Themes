@@ -271,8 +271,12 @@ body{
 
 @media (max-width: 767px){
     .features .feat{
-       text-align: center
-    }  
+       text-align: center;
+    } 
+    
+    .features .feat p{
+        font-size:14px; 
+     }
 }
 
 @media (min-width: 768px){
@@ -310,6 +314,11 @@ body{
     line-height: 1.6;
 }
 
+@media (min-width: 992px){
+    .about-us .responsive-paragraph{
+        font-size: 14px;
+    }
+} 
 
 /* End About Us */
 
@@ -410,6 +419,10 @@ body{
         width: 80%;
         margin: 2% 10%;
     }
+
+    .pricing-table .pricing-plan ul{
+        font-size: 14px;
+      }
 
   }
 
@@ -593,7 +606,12 @@ body{
 
 @media (max-width: 767px){
     .information .info-list li{
-        display: block
+        display: block;
+        font-size: 14px;
+    }
+
+    .information .info-content > div{
+       font-size: 12px;
     }
 }
 
